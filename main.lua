@@ -29,6 +29,12 @@ function fill_starmap_coords( x,y )
     -- fills starmap with random coords
 end
 
+function generate_simple_names ()
+	-- generates simple names - vowel+consonant OR consonant + vowel
+	local vowels = "aaaeeeeeeoouiiiy"
+    local consonants = "bccddfghhjkkllmmnnppqrssttvxz"
+end
+
 function populate_system (system)
     local system_name = string.lower(system)
     local alphabet = "abcdefghijklmnopqrstuvwxyz1234567890"
